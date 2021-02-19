@@ -1,0 +1,42 @@
+
+
+body{
+    background-image: url('images/assassin\'s\ creed.jpg');
+    background-position: 10% 10%;
+}
+
+input,
+label {
+    margin: 10px;
+    font: 2rem 'Fira Sans', sans-serif;
+    color: aliceblue;
+}
+.container{
+    margin: 100px;
+}
+#jeu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+}
+#boutonValider{
+    margin : 10px;
+}
+
+.Letemps{
+    color: rgb(0, 153, 255);
+    padding: 10px;
+    fbackgroundont-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    margin-left: 100px;
+}
+li{
+    list-style: none;
+    color: red;
+}
+/*#time {
+    border-radius: 10px;
+    -color: yellowgreen;
+    padding: 10px;
+}*/
